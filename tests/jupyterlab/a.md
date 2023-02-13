@@ -1,3 +1,15 @@
+---
+author: Bangguo Chen
+title: a
+description: aa
+slug: a
+date: 2022-01-15
+categories:
+    - a
+tags: 
+    - docker
+---
+
 - [H1](#h1)
   - [H2](#h2)
     - [H3](#h3)
@@ -72,7 +84,53 @@ a.printa()
     Print a...
 
 
+## panda
+
+![panda](https://alifei03.cfp.cn/creative/vcg/800/version23/VCG21gic15754169.jpg)
+
 
 ```python
+aa
+```
+
+## add ${}file
+
+
+```python
+import glob 
+import os 
+import shutil
+```
+
+
+```python
+ct_dir = "/root/Documents/ct"
+_dirs = glob.glob(os.path.join(ct_dir, "**/*"), recursive=True)
+
+fstr = """\
+---
+author: Bangguo Chen
+title: {title}
+description: {title}
+slug: slug-{title}
+date: 2022-01-15
+categories:
+tags: 
+---
+"""
+
+
+for _dir in _dirs:
+    if os.path.isdir(_dir):
+        title = os.path.basename(_dir)
+        print(_dir)
+        file = os.path.join(_dir, f"{title}.md")
+        with open(file, "w") as f:
+            f.write(fstr.format(title=title))
+            f.write("\n")
+
 
 ```
+
+    /root/Documents/ct/Associates
+
