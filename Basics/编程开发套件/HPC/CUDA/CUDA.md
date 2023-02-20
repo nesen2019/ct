@@ -27,8 +27,8 @@ nvcc *.cu \
 
 
 ## 参考文档
-  [CUDA Toolkit](https://docs.nvidia.com/cuda/index.html)
-
+- [CUDA Toolkit](https://docs.nvidia.com/cuda/index.html)
+- [Hands-On-GPU-Accelerated-Computer-Vision-with-OpenCV-and-CUDA](https://github.com/PacktPublishing/Hands-On-GPU-Accelerated-Computer-Vision-with-OpenCV-and-CUDA)
 
 
 
