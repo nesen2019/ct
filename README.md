@@ -3,6 +3,14 @@ Test the working mode of vscode
 
 
 
+[Basics/Liunx基础](Basics/Liunx基础)  
+[Basics/Liunx基础/Liunx基础.md](Basics/Liunx基础/Liunx基础.md)
+
+
+
+
+
+
 - Basics: 基础知识
 理论基础，推理，最佳实践等
 - Extensions: 扩展知识 
