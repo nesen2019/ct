@@ -30,7 +30,7 @@ programing language
 编程语言
 
 
-- [Basics/Liunx基础](Basics/Liunx%E5%9F%BA%E7%A1%80/Liunx%E5%9F%BA%E7%A1%80.md) 
+- [Basics/Liunx基础](Basics/Liunx%E5%9F%BA%E7%A1%80/Liunx%E5%9F%BA%E7%A1%80.md "# 123\n## 234") 
 - [Basics/Liunx基础#](#Basics/Liunx%E5%9F%BA%E7%A1%80/Liunx%E5%9F%BA%E7%A1%80.md) 
 - [Basics/Liunx基础?#](?#Basics/Liunx%E5%9F%BA%E7%A1%80/Liunx%E5%9F%BA%E7%A1%80.md) 
 
